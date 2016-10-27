@@ -20,8 +20,6 @@ Raven.config(sentryURL, {
     }
 }).install()
 
-console.log(window.thing.nope)
-
 ReactDOM.render(
     routes,
     document.getElementById('app')
